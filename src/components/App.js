@@ -1,4 +1,7 @@
-import React from "react";
+/*import React from 'react';
+import Navbar from './App.js/Navbar';
+import Home from './components/Home';
+import About from './App.js/About';
 
 function NavBar() {
   return (
@@ -16,17 +19,38 @@ function Home() {
   );
 }
 
-{/* write an <About> component here */}
+{function About() {
+  return (
+    <div id="About">
+      <h1>About</h1>
+    </div>
+  );}
 
 
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      <Home />
+      <About />
     </div>
   );
 }
 
-export default App;
+export default App;*/
+import React from 'react';
+
+const Navbar = () => {
+  return (
+    <nav>
+      <h1>Navbar</h1>
+      <h2>Home</h2>
+      <h3>About</h3>
+    </nav>
+  );
+};
+
+export default Navbar;
+
+
+
